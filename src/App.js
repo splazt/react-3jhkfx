@@ -17,7 +17,7 @@ export default function App() {
 
   return (
     <div className="container">
-      <h1>{`Count: ${1}`}</h1>
+      <h1>{`Count: ${state}`}</h1>
       <div>
         <button className="plusBtn" onClick={plusNum}>
           +
